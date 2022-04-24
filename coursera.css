@@ -1,0 +1,30 @@
+@media(max-width: 768){}
+.flex-container{
+	display: flex;
+}
+
+*{box-sizing: border-box;}
+.item{
+	float: left;
+	padding: 50px;
+	background-color: dimgrey;
+    border: 10px solid white;
+    margin-bottom: 5px;
+    font-weight: 20px;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+    border: 1px solid black;
+    background-color:fuchsia ;
+    font-weight: 40px;
+}
+.star{
+    background-color: darkgreen;
+    border-collapse: initial;
+}
+.moon{
+	background-color: khaki;
+}
